@@ -1,0 +1,30 @@
+server:
+  port: 9083
+spring:
+  application:
+    name: shopping-api-service
+  cloud:
+    gateway:
+      routes:
+        - id: analytics
+          uri: lb://ANALYTICS-SERVICE
+          predicates:
+            - Path=/analytics/**
+        - id: product
+          uri: lb://PRODUCT-SERVICE
+          predicates:
+            - Path=/product/**
+        - id: customer
+          uri: lb://CUSTOMER-SERVICE
+          predicates:
+            - Path=/customer/**
+        - id: order
+          uri: lb://ORDER-SERVICE
+          predicates:
+            - Path=/order/**
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9085/eureka/
+  instance:
+    preferIpAddress: true

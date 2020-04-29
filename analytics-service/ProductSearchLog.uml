@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.xyz.shopping.online.analyticsservice.entity.ProductSearchLog</OriginalElement>
+  <nodes>
+    <node x="547.9681818181816" y="442.0">com.xyz.shopping.online.analyticsservice.repository.ProductDetailsLogRepository</node>
+    <node x="794.9681818181816" y="442.0">com.xyz.shopping.online.analyticsservice.repository.ProductSearchLogRepository</node>
+    <node x="104.73181818181808" y="0.0">com.xyz.shopping.online.analyticsservice.entity.ProductDetailsLog</node>
+    <node x="0.0" y="553.0">com.xyz.shopping.online.analyticsservice.controller.ProductAnalyticsController</node>
+    <node x="106.96818181818168" y="420.0">com.xyz.shopping.online.analyticsservice.service.ProductAnalyticsService</node>
+    <node x="443.4999999999999" y="553.0">com.xyz.shopping.online.analyticsservice.service.ProductAnalyticsServiceImpl</node>
+    <node x="631.8818181818181" y="33.0">com.xyz.shopping.online.analyticsservice.entity.ProductSearchLog</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.xyz.shopping.online.analyticsservice.service.ProductAnalyticsServiceImpl" target="com.xyz.shopping.online.analyticsservice.service.ProductAnalyticsService">
+      <point x="-86.39999999999998" y="-59.0" />
+      <point x="573.0999999999999" y="513.0" />
+      <point x="421.9681818181817" y="513.0" />
+      <point x="105.0" y="36.5" />
+    </edge>
+    <edge source="com.xyz.shopping.online.analyticsservice.repository.ProductSearchLogRepository" target="com.xyz.shopping.online.analyticsservice.entity.ProductSearchLog">
+      <point x="0.0" y="-14.5" />
+      <point x="908.9681818181816" y="400.0" />
+      <point x="814.3818181818181" y="400.0" />
+      <point x="36.5" y="147.0" />
+    </edge>
+    <edge source="com.xyz.shopping.online.analyticsservice.repository.ProductDetailsLogRepository" target="com.xyz.shopping.online.analyticsservice.entity.ProductDetailsLog">
+      <point x="0.0" y="-14.5" />
+      <point x="661.4681818181816" y="380.0" />
+      <point x="360.2318181818181" y="380.0" />
+      <point x="109.5" y="180.0" />
+    </edge>
+    <edge source="com.xyz.shopping.online.analyticsservice.service.ProductAnalyticsService" target="com.xyz.shopping.online.analyticsservice.entity.ProductDetailsLog">
+      <point x="-105.0" y="-36.5" />
+      <point x="211.96818181818168" y="400.0" />
+      <point x="287.2318181818181" y="400.0" />
+      <point x="36.5" y="180.0" />
+    </edge>
+    <edge source="com.xyz.shopping.online.analyticsservice.service.ProductAnalyticsServiceImpl" target="com.xyz.shopping.online.analyticsservice.entity.ProductDetailsLog">
+      <point x="-172.79999999999995" y="-59.0" />
+      <point x="486.69999999999993" y="523.0" />
+      <point x="96.46818181818168" y="523.0" />
+      <point x="96.46818181818168" y="390.0" />
+      <point x="214.23181818181808" y="390.0" />
+      <point x="-36.5" y="180.0" />
+    </edge>
+    <edge source="com.xyz.shopping.online.analyticsservice.controller.ProductAnalyticsController" target="com.xyz.shopping.online.analyticsservice.service.ProductAnalyticsService">
+      <point x="-1.1368683772161603E-13" y="-59.0" />
+      <point x="209.9999999999999" y="533.0" />
+      <point x="211.96818181818168" y="533.0" />
+      <point x="-105.0" y="36.5" />
+    </edge>
+    <edge source="com.xyz.shopping.online.analyticsservice.controller.ProductAnalyticsController" target="com.xyz.shopping.online.analyticsservice.entity.ProductDetailsLog">
+      <point x="-140.0000000000001" y="-59.0" />
+      <point x="69.99999999999989" y="533.0" />
+      <point x="51.399999999999864" y="533.0" />
+      <point x="51.399999999999864" y="380.0" />
+      <point x="141.23181818181808" y="380.0" />
+      <point x="-109.5" y="180.0" />
+    </edge>
+    <edge source="com.xyz.shopping.online.analyticsservice.service.ProductAnalyticsServiceImpl" target="com.xyz.shopping.online.analyticsservice.entity.ProductSearchLog">
+      <point x="172.79999999999995" y="-59.0" />
+      <point x="832.2999999999998" y="533.0" />
+      <point x="1033.4681818181816" y="533.0" />
+      <point x="1033.4681818181816" y="390.0" />
+      <point x="887.3818181818181" y="390.0" />
+      <point x="109.5" y="147.0" />
+    </edge>
+    <edge source="com.xyz.shopping.online.analyticsservice.service.ProductAnalyticsService" target="com.xyz.shopping.online.analyticsservice.entity.ProductSearchLog">
+      <point x="105.0" y="-36.5" />
+      <point x="421.9681818181817" y="390.0" />
+      <point x="668.3818181818181" y="390.0" />
+      <point x="-109.5" y="147.0" />
+    </edge>
+    <edge source="com.xyz.shopping.online.analyticsservice.service.ProductAnalyticsServiceImpl" target="com.xyz.shopping.online.analyticsservice.repository.ProductDetailsLogRepository">
+      <point x="0.0" y="-59.0" />
+      <point x="659.4999999999999" y="533.0" />
+      <point x="661.4681818181816" y="533.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.xyz.shopping.online.analyticsservice.controller.ProductAnalyticsController" target="com.xyz.shopping.online.analyticsservice.entity.ProductSearchLog">
+      <point x="139.9999999999999" y="-59.0" />
+      <point x="349.9999999999999" y="533.0" />
+      <point x="537.4681818181816" y="533.0" />
+      <point x="537.4681818181816" y="400.0" />
+      <point x="741.3818181818181" y="400.0" />
+      <point x="-36.5" y="147.0" />
+    </edge>
+    <edge source="com.xyz.shopping.online.analyticsservice.service.ProductAnalyticsServiceImpl" target="com.xyz.shopping.online.analyticsservice.repository.ProductSearchLogRepository">
+      <point x="86.39999999999998" y="-59.0" />
+      <point x="745.8999999999999" y="523.0" />
+      <point x="908.9681818181816" y="523.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="408.5" y="225.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

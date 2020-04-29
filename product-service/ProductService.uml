@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.xyz.shopping.online.productservice.service.ProductService</OriginalElement>
+  <nodes>
+    <node x="331.4642857142857" y="334.0">com.xyz.shopping.online.productservice.controller.ProductController</node>
+    <node x="110.5892857142857" y="0.0">com.xyz.shopping.online.productservice.entity.Product</node>
+    <node x="9.464285714285722" y="334.0">com.xyz.shopping.online.productservice.service.ProductServiceImpl</node>
+    <node x="0.0" y="255.0">com.xyz.shopping.online.productservice.repository.ProductRepository</node>
+    <node x="307.58333333333337" y="255.0">com.xyz.shopping.online.productservice.service.ProductService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.xyz.shopping.online.productservice.service.ProductService" target="com.xyz.shopping.online.productservice.entity.Product">
+      <point x="-2.8421709430404007E-14" y="-14.5" />
+      <point x="378.08333333333337" y="235.0" />
+      <point x="252.4642857142857" y="235.0" />
+      <point x="28.375" y="102.5" />
+    </edge>
+    <edge source="com.xyz.shopping.online.productservice.controller.ProductController" target="com.xyz.shopping.online.productservice.entity.Product">
+      <point x="64.5" y="-36.5" />
+      <point x="524.9642857142858" y="309.0" />
+      <point x="469.0297619047619" y="309.0" />
+      <point x="469.0297619047619" y="225.0" />
+      <point x="309.21428571428567" y="225.0" />
+      <point x="85.125" y="102.5" />
+    </edge>
+    <edge source="com.xyz.shopping.online.productservice.service.ProductServiceImpl" target="com.xyz.shopping.online.productservice.repository.ProductRepository">
+      <point x="-100.66666666666669" y="-36.5" />
+      <point x="59.79761904761904" y="309.0" />
+      <point x="81.5" y="309.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.xyz.shopping.online.productservice.service.ProductServiceImpl" target="com.xyz.shopping.online.productservice.entity.Product">
+      <point x="0.0" y="-36.5" />
+      <point x="160.46428571428572" y="309.0" />
+      <point x="173.5" y="309.0" />
+      <point x="173.5" y="235.0" />
+      <point x="195.7142857142857" y="235.0" />
+      <point x="-28.375" y="102.5" />
+    </edge>
+    <edge source="com.xyz.shopping.online.productservice.controller.ProductController" target="com.xyz.shopping.online.productservice.service.ProductService">
+      <point x="-64.5" y="-36.5" />
+      <point x="395.9642857142857" y="309.0" />
+      <point x="413.33333333333337" y="309.0" />
+      <point x="35.24999999999997" y="14.5" />
+    </edge>
+    <edge source="com.xyz.shopping.online.productservice.service.ProductServiceImpl" target="com.xyz.shopping.online.productservice.service.ProductService">
+      <point x="100.66666666666663" y="-36.5" />
+      <point x="261.13095238095235" y="309.0" />
+      <point x="342.83333333333337" y="309.0" />
+      <point x="-35.25" y="14.5" />
+    </edge>
+    <edge source="com.xyz.shopping.online.productservice.repository.ProductRepository" target="com.xyz.shopping.online.productservice.entity.Product">
+      <point x="0.0" y="-14.5" />
+      <point x="81.5" y="235.0" />
+      <point x="138.9642857142857" y="235.0" />
+      <point x="-85.125" y="102.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="291.0" y="188.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
